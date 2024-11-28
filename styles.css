@@ -1,0 +1,25 @@
+.body{
+background-color: rgb(236, 208, 183);
+
+
+
+
+}
+
+
+
+ /* Default link style */
+.hover-link {
+    text-decoration: none; /* Remove underline */
+    color: #3498db; /* Blue color */
+    font-weight: bold; /* Make it bold */
+    transition: color 0.3s ease, transform 0.3s ease; /* Smooth transition */
+  }
+  
+  /* Hover effect */
+  .hover-link:hover {
+    color: #e74c3c; /* Change color to red */
+    transform: scale(1.1); /* Slightly increase the size */
+    text-shadow: 0 2px 5px rgba(0, 0, 0, 0.3); /* Add a shadow effect */
+  }
+
